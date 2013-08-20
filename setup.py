@@ -101,7 +101,7 @@ package_data = find_package_data(exclude_directories=excluded_directories)
 
 
 setup(
-    name='Django S3 Sync',
+    name='s3sync',
     version=version.replace(' ', '-'),
     url='http://github.com/pcraciunoiu/django-s3sync',
     author='Paul Craciunoiu',
@@ -126,3 +126,5 @@ setup(
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
     ],
 )
+
+print find_packages()
